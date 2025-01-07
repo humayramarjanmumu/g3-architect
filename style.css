@@ -1,0 +1,104 @@
+/* Shared style */
+@import url('https://fonts.googleapis.com/css2?family=Hind+Mysuru:wght@300;400;500;600;700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: o;
+    padding: o;
+    font-family: "Hind Mysuru", serif;
+    font-family: "Hind Mysuru", serif;
+}
+
+.btn-primary {
+    background-color: #FF900E;
+    width: 180px;
+    height: 64px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1.25rem;
+    border: 0;
+    padding: 20px 25px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Header style */
+header {
+    background-color: #ff8f0e10;
+    padding: 50px 240px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424242;
+}
+
+.nav-heading {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+
+}
+
+/* Banner style */
+.banner-content {
+    max-width: 800px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.banner-heading {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+    text-align: center;
+}
+
+.banner-discription {
+    color: #727272;
+}
+
+.banner img {
+    margin-top: 20px;
+
+    width: 100%;
+}
+
+/* Responsive Media Query */
+/* For Mobile Device */
+@media screen and (max-width:576px) {
+    header {
+        padding: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+}
+
+/* Responsive for Tablet or medium devices */
+@media screen and (max-width:992px) and (min-width:576px) {
+    header {
+        padding: 50px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+}
