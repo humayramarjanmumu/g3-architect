@@ -47,13 +47,11 @@ main>section {
     bottom: 170px;
     text-align: center;
     border-radius: 8px;
-    padding-top: px;
-
 }
 
 #ex {
     font-size: 1.3rem;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .d-flex {
@@ -66,10 +64,9 @@ header {
     padding: 50px 240px;
 }
 
-#head {}
 
 nav {
-    background-color: #78ccf910;
+    background-color: #37aded10;
     padding: 50px 60px;
     height: 40px;
     display: flex;
@@ -154,7 +151,7 @@ nav li a {
 }
 
 #ft-deb {
-    border-left: 3px solid #FF900E;
+    border-left: 6px solid #FF900E;
 }
 
 .ft-title {
@@ -180,6 +177,7 @@ nav li a {
     position: relative;
 }
 
+/* Icon Section Starts */
 .facts {
     font-size: 2.5rem;
     font-weight: 900;
@@ -197,15 +195,17 @@ nav li a {
 }
 
 #years {
-    font-size: 2.8rem;
-    font-weight: 800;
+    font-size: 2.5rem;
+    font-weight: 900;
     color: #fff;
-    padding-top: 10px;
+    padding-top: 20px;
+    margin-bottom: -35px;
 }
 
 #exp {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 400;
+    padding-bottom: 20px;
 }
 
 .boxes {
@@ -222,63 +222,34 @@ nav li a {
 .box-img {
     margin: 30px auto;
     margin-top: 45px;
+    margin-bottom: -30px;
     align-items: center;
     padding-left: 95px;
 }
 
 .box-text-n {
-    height: 53px;
-    width: 55px;
-    padding-left: 43%;
-    color: #424242;
+    margin-bottom: -30px;
+    padding-top: -43px;
     font-size: 2rem;
     font-weight: 800;
 }
 
-.box-text-n2 {
-    height: 53px;
-    width: 102px;
-    padding-left: 38%;
-    color: #424242;
-    font-size: 2rem;
-    font-weight: 800;
-}
+.icon {
+    text-align: center;
 
-.box-text-n3 {
-    height: 53px;
-    width: 83px;
-    padding-left: 39%;
-    color: #424242;
-    font-size: 2rem;
-    font-weight: 800;
-}
-
-.box-text-n4 {
-    height: 53px;
-    width: 133px;
-    padding-left: 35%;
-    color: #424242;
-    font-size: 2rem;
-    font-weight: 900;
 }
 
 .box-text-p {
-    height: 23px;
-    width: 169px;
-    padding-left: 30%;
-    color: #424242;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 500;
 }
 
-.box-text-p4 {
-    height: 23px;
-    width: 169px;
-    padding-left: 35%;
-    color: #424242;
+/* .box-text-p4 {
     font-size: 1rem;
     font-weight: 500;
-}
+} */
+
+/* Icon Section Ends */
 
 /* sponser section starts */
 .sponsers {
@@ -315,6 +286,7 @@ nav li a {
     color: #424242;
     text-align: center;
     margin-top: 80px;
+    height: px;
 }
 
 /* Responsive Media Query */
@@ -327,6 +299,7 @@ nav li a {
     nav {
         flex-direction: column;
     }
+
 }
 
 /* Responsive for Tablet or medium devices */
@@ -336,6 +309,14 @@ nav li a {
     }
 
     nav {
+        flex-direction: column;
+    }
+
+    main {
+        padding: 50px;
+    }
+
+    section {
         flex-direction: column;
     }
 }
